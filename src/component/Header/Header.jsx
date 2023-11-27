@@ -29,7 +29,7 @@ const Header = () => {
                 </button>
                 {
                     open && (
-                        <div className='absolute  top-0 right-0 w-full z-10 p-4'>
+                        <div className='absolute top-0 right-0 w-full z-10 p-4'>
                             <div className='p-5 bg-slate-100 rounded shadow-2xl'>
                                 <div className='flex items-center justify-between mb-4'>
 
