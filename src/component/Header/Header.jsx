@@ -27,6 +27,9 @@ const Header = () => {
                 <button onClick={() => setOpen(true)}>
                     <Bars3Icon className='h-6 w-6' />
                 </button>
+
+                {/* condision  */}
+                
                 {
                     open && (
                         <div className='absolute top-0 right-0 w-full z-10 p-4'>
